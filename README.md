@@ -1,5 +1,3 @@
-Robotics Lab Researcher / Assistant Professor / Open Source Contributor / UC3M Student Robotics Society Leader
-
-PhD - UC3M / Master in Robotics and Automation - UC3M / Industrial Engineer - Universidade de Vigo
+PhD Assistant Professor [@uc3m](https://twitter.com/uc3m) / Researcher [@uc3mRoboticslab](https://twitter.com/uc3mRoboticslab) / Robotics Society Leader [@asrob_uc3m](https://twitter.com/asrob_uc3m) / Open Source Contributor at https://github.com/jgvictores
 
 [YouTube](http://www.youtube.com/user/jgvictores) / [Mendeley](http://www.mendeley.com/profiles/juan-g-victores) / [Google Scholar](http://scholar.google.com/citations?user=qawKnNkAAAAJ) / [Research Gate](http://www.researchgate.net/profile/Juan_Victores) / [ORCID](http://orcid.org/0000-0002-3080-3467) / [LinkedIn](https://es.linkedin.com/in/jgvictores) / [Twitter](https://twitter.com/jgvictores) / [SlideShare](http://www.slideshare.net/JuanGVictores) / [SourceForge](http://sourceforge.net/u/jgvictores/profile) / [GitHub](https://github.com/jgvictores)
