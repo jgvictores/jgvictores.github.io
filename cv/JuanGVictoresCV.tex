@@ -1,0 +1,169 @@
+\documentclass{article}
+
+% tildes
+\usepackage[utf8]{inputenc}
+
+% hyperref
+\usepackage{hyperref}
+\def\name{Juan G. Victores}
+\hypersetup{
+  colorlinks = true,
+  urlcolor = black,
+  pdfauthor = {\name},
+  pdfkeywords = { robot, researcher, teacher },
+  pdftitle = {\name: Curriculum Vitae},
+  pdfsubject = {Curriculum Vitae},
+  pdfpagemode = UseNone
+}
+
+% geometry
+\usepackage{geometry}
+\geometry{
+  body={6.5in, 8.5in},
+  left=1.0in,
+  top=1.2in
+}
+
+% Don't indent paragraphs.
+\setlength\parindent{0em}
+
+% Custom section fonts
+\usepackage[sc,osf]{mathpazo}
+\usepackage{sectsty}
+\sectionfont{\rmfamily\mdseries\Large}
+\subsectionfont{\rmfamily\mdseries\itshape\large}
+
+% bib
+\usepackage{natbib}  % avoid hyperref<->bibentry conflict [http://tex.stackexchange.com/questions/145360/clash-between-bibentry-and-hyperref]
+\usepackage{bibentry}
+
+%%%%%%%%%%%%%%%%%
+\begin{document}
+
+% Place name at left
+{\huge \name}
+
+% Alternatively, print name centered and bold:
+%\centerline{\huge \bf \name}
+\vspace{0.2in}
+
+% bib
+\nobibliography{JuanGVictoresCV}
+\bibliographystyle{unsrt}
+
+\section*{Journal Articles}
+\begin{enumerate}
+  \item \bibentry{marinetto2017mobile}
+  \item \bibentry{estevez2015robot}
+  \item \bibentry{morante2015cryptobotics}
+  \item \bibentry{montero2015past}
+  \item \bibentry{morante2015humanoid}
+  \item \bibentry{victores2014an}
+  \item \bibentry{crespo2014algorithm}
+  \item \bibentry{martinez2013flexible}
+  \item \bibentry{jardon2012experience}
+  \item \bibentry{jardon2011personal}
+  \item \bibentry{victores2011robot}
+\end{enumerate}
+
+\section*{Patents}
+\begin{enumerate}
+  \item \bibentry{jardon2014sistema}
+  \item \bibentry{victores2011tool}
+\end{enumerate}
+
+\section*{Book Chapters}
+\begin{enumerate}
+  \item \bibentry{fernandezfernandez2016new}
+  \item \bibentry{estevez2016anew}
+  \item \bibentry{estevez2016future}
+  \item \bibentry{montero2015the}
+  \item \bibentry{morante2015forcesensorless}
+  \item \bibentry{jardon2014a}
+  \item \bibentry{victores2014assistive}
+  \item \bibentry{balaguer2010robotic}
+\end{enumerate}
+
+\section*{Conference Proceedings}
+\begin{enumerate}
+  \item \bibentry{menendez2017sistema}
+  \item \bibentry{estevez2017horus}
+  \item \bibentry{menendez2017autonomous}
+  \item \bibentry{montero2017intelligent}
+  \item \bibentry{estevez2017robotic}
+  \item \bibentry{estevez2017improving}
+  \item \bibentry{fernandez-fernandez2017improving}
+  \item \bibentry{fernandez-fernandez2017reducing}
+  \item \bibentry{estevez2016alightweight}
+  \item \bibentry{loupos2016integrated}
+  \item \bibentry{estevez2016towards}
+  \item \bibentry{morante2015automatic}
+  \item \bibentry{loupos2015robotic}
+  \item \bibentry{estevez2015robot-intetain}
+  \item \bibentry{loupos2014robotic}
+  \item \bibentry{jardon2014extended}
+  \item \bibentry{balaguer2014towards}
+  \item \bibentry{morante2014on}
+  \item \bibentry{morante2014action}
+  \item \bibentry{victores2013creacion}
+  \item \bibentry{victores2013towards}
+  \item \bibentry{stoelen2013adaptive}
+  \item \bibentry{rodriguez2013diseno}
+  \item \bibentry{victores2013give}
+  \item \bibentry{gonzalezfierro2013object}
+  \item \bibentry{victores2013semantic}
+  \item \bibentry{victores2013augmented}
+  \item \bibentry{jardon2012extended}
+  \item \bibentry{jardon2012experimental}
+  \item \bibentry{gonzalezgomez2011motion}
+  \item \bibentry{balaguer2011sultan}
+  \item \bibentry{jardon2011aplicacion}
+  \item \bibentry{victores2011interaccion}
+  \item \bibentry{stoelen2011methodologies}
+  \item \bibentry{victores2010ratim}
+  \item \bibentry{gonzalezfierro2010educational}
+  \item \bibentry{victores2010asibot}
+  \item \bibentry{stoelen2010information}
+  \item \bibentry{stoelen2010towards}
+  \item \bibentry{victores2010benchmarking}
+  \item \bibentry{victores2009robot}
+  \item \bibentry{jardon2009asibot}
+\end{enumerate}
+
+\section*{Conference Videos}
+\begin{enumerate}
+  \item \bibentry{victores2014on}
+  \item \bibentry{morante2014sensorless}
+\end{enumerate}
+
+\section*{PhD Thesis (author)}
+\begin{enumerate}
+  \item \bibentry{victores2014thesis}
+\end{enumerate}
+
+\section*{PhD Thesis (advisor)}
+\begin{enumerate}
+  \item \bibentry{morante2016thesis}
+\end{enumerate}
+
+\section*{Research Internships}
+\begin{tabular}{l p{14cm}}
+Sept. 2011 --&{\bf Istituto Italiano di Tecnologia}. Department of Robotics, Brain and Cognitive Sciences.\\
+Dic. 2011&Estancia de 3 meses destinado a la investigación del uso de Support Vector Machines y Gaussianas mixtas para el control en fuerza del robot iCub (Génova, Italia).
+\end{tabular}
+
+\section*{Workshop Organizer}
+\begin{enumerate}
+\item Juan G. Victores, Lorenzo Natale, Eiichi Yoshida. Towards Humanoid Robots OS. HUMANOIDS. Cancun, Mexico. Nov 15. 2016. \url{https://roboticslab-uc3m.github.io/workshop-humanoids2016/}
+\item Angelos Amditis, Konstantinos Loupos, Juan G. Victores. Autonomous Robotic Systems for Inspection and Structural Assessment of Civil Underground Infrastructures. European Robotics Forum (ERF). Ljubljana, Slovenia. Mar 22. 2016. \url{https://www.eu-robotics.net/robotics\_forum/upload/digest\_1-96\_without\_emails\_250ppi1.pdf}
+\end{enumerate}
+
+\section*{Talks}
+\begin{enumerate}
+\item Juan G. Victores. XGNITIVE: Avances hacia la generalización avanzada de acciones y sistemas de imaginación en robótica. Technology Festival (Techfest). Universidad Rey Juan Carlos (URJC). 2017. \url{https://www.eventbrite.es/e/registro-technology-festival-urjc-2017-28838850779?aff=es2#}
+\item Angelos Amditis, Juan G. Victores, Fedi Francesco. Welcome and Introduction. Autonomous Robotic Systems for Inspection and Structural Assessment of Civil Underground Infrastructures. European Robotics Forum (ERF). Ljubljana, Slovenia. Mar 22. 2016. \url{https://www.eu-robotics.net/robotics\_forum/upload/digest\_1-96\_without\_emails\_250ppi1.pdf}
+\end{enumerate}
+
+\end{document}
+%%%%%%%%%%%%%%%%%
+
