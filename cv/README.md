@@ -5,7 +5,7 @@ README.md
 - email labels: paperAccepted (also in svn:research/papers).
 - Scholar: Previously check if exists in Scholar or if .bib can be exported from official sites.
 - Mendeley: Then main workflow begins with Mendeley.
-- LaTeX: From Mendeley, select all, sort by Added (most recent top), and Export. Update .tex to include new bibentry. Run ./run.sh, which adds SM thesis which is not exported, and also does make bibtex.
+- LaTeX: From Mendeley, select all, sort by Added (most recent top), and Export. Update .tex to include new bibentry (and update number, manually for now). Run ./run.sh, which adds SM thesis which is not exported, and also does make bibtex.
 - RoboticsLab: If not exist, This has to be done manually.
 - ResearchGate: If not exist, import .bib (can be exported from Mendeley).
 - ORCID: If not exist (common case), import .bib (can be exported from Mendeley). Update month and day.
