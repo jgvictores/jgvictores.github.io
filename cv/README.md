@@ -10,6 +10,7 @@ README.md
 - ResearchGate: If not exist, import .bib (can be exported from Mendeley).
 - ORCID: If not exist (common case), import .bib (can be exported from Mendeley). Update month and day.
 - LinkedIn: If not exist (common case), This has to be done manually, the ResearchGate interface can help.
+- email labels: paperAccepted -> paperPubished (also in svn:research/papers).
 
 ## Helpful Links
 - http://tex.stackexchange.com/questions/60565/separating-two-types-of-articles-from-bibtex-using-printbibliography
