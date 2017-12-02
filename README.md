@@ -5,7 +5,7 @@
 - ICT Chair at [IROS 2018](https://www.iros2018.org/organizing-committee)
 - [CV (pdf)](cv/JuanGVictoresCV.pdf)
 
-#### Profiles
+#### Profile pages
 - [GitHub](https://github.com/jgvictores) 
 - [SourceForge](http://sourceforge.net/u/jgvictores/profile) 
 - [YouTube](http://www.youtube.com/user/jgvictores)
@@ -16,4 +16,3 @@
 - [LinkedIn](https://es.linkedin.com/in/jgvictores)
 - [Twitter](https://twitter.com/jgvictores)
 - [SlideShare](http://www.slideshare.net/JuanGVictores)
-
