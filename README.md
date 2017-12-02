@@ -3,8 +3,6 @@
 - PhD in Robotics - Researcher at [RoboticsLab (UC3M)](http://roboticslab.uc3m.es/roboticslab/people/jg-victores)
 - Robotics Society Leader at [ASROB (UC3M)](http://asrob-uc3m.github.io/)
 - ICT Chair at [IROS 2018](https://www.iros2018.org/organizing-committee)
-
-### Additional links
 - [GitHub](https://github.com/jgvictores) 
 - [SourceForge](http://sourceforge.net/u/jgvictores/profile) 
 - [YouTube](http://www.youtube.com/user/jgvictores)
