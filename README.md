@@ -1,7 +1,8 @@
 ### Universidad Carlos III de Madrid (UC3M)
-- PhD Assistant Professor
-- Researcher [@uc3mRoboticslab](http://roboticslab.uc3m.es/roboticslab/people/jg-victores)
-- Robotics Society Leader [@asrob_uc3m](https://twitter.com/asrob_uc3m)
+
+- Assistant Professor at [UC3M](http://www.uc3m.es)
+- PhD in Robotics - Researcher at [RoboticsLab (UC3M)](http://roboticslab.uc3m.es/roboticslab/people/jg-victores)
+- Robotics Society Leader at [ASROB (UC3M)](http://asrob-uc3m.github.io/)
 - Open Source Contributor at [https://github.com/jgvictores](https://github.com/jgvictores)
 - ICT Chair at [IROS 2018](https://www.iros2018.org/organizing-committee)
 
