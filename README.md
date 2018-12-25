@@ -2,7 +2,7 @@
 - Yes, I am currently a Visitor at [The University of Manchester](https://personalpages.manchester.ac.uk/staff/juan.gonzalezvictores/)
 - Assistant Professor at [UC3M](http://www.uc3m.es)
 - PhD in Robotics and AI - Researcher at [RoboticsLab (UC3M)](http://roboticslab.uc3m.es/roboticslab/people/jg-victores)
-- Robotics Society Leader at [ASROB (UC3M)](http://asrob-uc3m.github.io/)
+- Robotics Society RD Responsible at [ASROB (UC3M)](http://asrob-uc3m.github.io/)
 - ICT Chair at [IROS 2018](https://www.iros2018.org/organizing-committee)
 - [CV (pdf)](cv/JuanGVictoresCV.pdf)
 
