@@ -7,3 +7,5 @@ pdflatex JuanGVictoresCV.tex
 bibtex JuanGVictoresCV.aux
 pdflatex JuanGVictoresCV.tex
 pdflatex JuanGVictoresCV.tex
+
+make4ht -u JuanGVictoresCV.tex

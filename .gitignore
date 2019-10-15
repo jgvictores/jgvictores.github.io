@@ -2,12 +2,19 @@
 Gemfile.lock
 _site/
 
-# pdflatex auxiliary
+# pdflatex and make4ht auxiliary
 *.aux
 *.bbl
 *.blg
 *.log
 *.out
+*.4ct
+*.4tc
+*.dvi
+*.idv
+*.lg
+*.tmp
+*.xref
 
 # Swap
 [._]*.s[a-v][a-z]
