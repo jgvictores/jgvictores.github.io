@@ -1,7 +1,7 @@
 ### Universidad Carlos III de Madrid (UC3M)
-- Visitor at [The University of Manchester](https://personalpages.manchester.ac.uk/staff/juan.gonzalezvictores/) (Oct 2018 - Jan 2019)
 - Assistant Professor at [UC3M](http://www.uc3m.es)
 - PhD in Robotics and AI - Researcher at [RoboticsLab (UC3M)](http://roboticslab.uc3m.es/roboticslab/people/jg-victores)
 - Robotics Society RD Responsible at [ASROB (UC3M)](http://asrob-uc3m.github.io/)
+- Visitor at [The University of Manchester](https://corolab.github.io) (Oct 2018 - Jan 2019)
 - ICT Chair at [IROS 2018](https://www.iros2018.org/organizing-committee)
 - [CV (html)](cv/JuanGVictoresCV.html) / [CV (pdf)](cv/JuanGVictoresCV.pdf)
