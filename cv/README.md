@@ -1,5 +1,11 @@
 # cv/
 
+## Install Dependencies (Ubuntu 22.04 Jammy)
+
+```bash
+sudo apt install texlive-latex-base texlive-latex-recommended texlive-latex-extra
+```
+
 ## Workflow
 
 - [email](https://gmail.com) labels: paperAccepted (also in svn:research/papers).
