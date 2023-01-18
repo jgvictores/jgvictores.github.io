@@ -1,5 +1,5 @@
 #!/bin/sh
-cp ~/library.bib victores.bib
+cp ~/export.bib victores.bib
 cat morante2016thesis.bib >> victores.bib
 sed -i "s/{\\\_}/_/g" victores.bib
 pdflatex JuanGVictoresCV.tex
