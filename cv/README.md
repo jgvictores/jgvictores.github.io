@@ -5,7 +5,7 @@
 - [email](https://gmail.com) labels: paperAccepted (also in svn:research/papers).
 - [Scholar](https://scholar.google.com) ([me](https://scholar.google.com/citations?user=qawKnNkAAAAJ)): Previously check if exists in Scholar or if `.bib` can be exported from official sites.
 - [Mendeley](https://www.mendeley.com): Then main workflow begins with [Mendeley Reference Manager for Desktop](https://www.mendeley.com/download-reference-manager). It is important to define an appropriate `Citation Key` at this stage.
-- LaTeX: From Mendeley, select all, sort by Added (most recent top), and Export. Update `.tex` to include new `bibentry` (and update number, manually for now). Run `./run.sh`, which adds SM thesis which is not exported, and also does `make bibtex`.
+- LaTeX: From `Mendeley Reference Manager for Desktop`, got to `My Publications`, select all, sort by Added (most recent top), and Export. Update `.tex` to include new `bibentry` (and update number, manually for now). Run `./run.sh`, which adds SM thesis which is not exported, and also does `make bibtex`.
 - [RoboticsLab](roboticslab.uc3m.es/roboticslab/people/jg-victores): If not exist, This has to be done manually.
 - [ResearchGate](https://www.researchgate.net/) ([me](https://www.researchgate.net/profile/Juan-Victores)): If not exist, import `.bib` (can be exported from Mendeley).
 - [ORCID](https://orcid.org) ([me](https://orcid.org/0000-0002-3080-3467)): If not exist (common case), import `.bib` (can be exported from Mendeley). Update month and day.
