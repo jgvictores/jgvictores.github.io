@@ -1,7 +1,11 @@
 #!/bin/sh
 cp ~/export.bib victores.bib
 cat morante2016thesis.bib >> victores.bib
-sed -i "s/{\\\_}/_/g" victores.bib
+#sed -i "s/{\\\_}/_/g" victores.bib
+sed -i '/   note = {/d' victores.bib  # sed -i "s/%2F/2F/g" victores.bib
+sed -i "s/@book_section/@incollection/g" victores.bib
+sed -i "s/@thesis/@phdthesis/g" victores.bib
+sed -i "s/@patent/@misc/g" victores.bib
 pdflatex JuanGVictoresCV.tex
 pdflatex JuanGVictoresCV.tex
 bibtex JuanGVictoresCV.aux
