@@ -13,7 +13,7 @@ sudo apt install texlive-latex-base texlive-latex-recommended \
 - [Scholar](https://scholar.google.com) ([me](https://scholar.google.com/citations?user=qawKnNkAAAAJ)): Previously check if exists in Scholar or if `.bib` can be exported from official sites.
 - [Mendeley Reference Manager for Desktop](https://www.mendeley.com/download-reference-manager) (local, syncs with [Mendeley](https://www.mendeley.com)). The main workflow begins here. It is important to define an appropriate `Citation Key` at this stage.
 - LaTeX (local): From `Mendeley Reference Manager for Desktop`, on left go to `My Publications`, sort by `Added` (most recent top), select all, and on bootm `Export` > `BibTex (*.bib)`. Manually update `JuanGVictoresCV.tex` to include a new `\bibentry` corresponding to the new citation key (and also manually update total count). Run `./run.sh`, which adds SM thesis which is not exported, and also does `make bibtex`.
-- [RoboticsLab](https://roboticslab.uc3m.es/roboticslab/people/jg-victores): If not exist, This has to be done manually.
+- [RoboticsLab](http://roboticslab.uc3m.es/roboticslab/people/jg-victores): If not exist, This has to be done manually.
 - [ResearchGate](https://www.researchgate.net/) ([me](https://www.researchgate.net/profile/Juan-Victores)): If not exist, import `.bib` (can be exported from Mendeley).
 - [ORCID](https://orcid.org) ([me](https://orcid.org/0000-0002-3080-3467)): If not exist (common case), import `.bib` (can be exported from Mendeley). Update month and day.
 - [LinkedIn](https://linkedin.com) ([me](https://linkedin.com/in/jgvictores)): If not exist (common case), This has to be done manually, the ResearchGate interface can help.
