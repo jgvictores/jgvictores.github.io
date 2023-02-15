@@ -17,6 +17,7 @@ sudo apt install texlive-latex-base texlive-latex-recommended \
 - [ResearchGate](https://www.researchgate.net/) ([me](https://www.researchgate.net/profile/Juan-Victores)): If not exist, import `.bib` (can be exported from Mendeley).
 - [ORCID](https://orcid.org) ([me](https://orcid.org/0000-0002-3080-3467)): If not exist (common case), import `.bib` (can be exported from Mendeley). Update month and day.
 - [LinkedIn](https://linkedin.com) ([me](https://linkedin.com/in/jgvictores)): If not exist (common case), This has to be done manually, the ResearchGate interface can help.
+- Generadores de CV/CVN/CVA: <https://cvn.fecyt.es/editor>, <https://u21.uc3m.es/Investigacion/uxxi-investigacion/curriculum/gestionar-cv>
 - [email](https://gmail.com): Change sublabel parent from `paperAccepted` -> `paperPubished`.
 - Also move in repositories, e.g. svn: `research` or GitHub `papers`.
 
