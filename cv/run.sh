@@ -3,7 +3,6 @@ set -u
 set -e
 
 cp ~/export.bib victores.bib
-cat morante2016thesis.bib >> victores.bib
 #sed -i "s/{\\\_}/_/g" victores.bib
 sed -i '/   note = {/d' victores.bib  # sed -i "s/%2F/2F/g" victores.bib
 sed -i "s/@book_section/@incollection/g" victores.bib
