@@ -2,7 +2,7 @@
   .ascii-banner-container {
     width: 100%;
     overflow: hidden;
-    margin-top: -30px;
+    margin-top: -20px;
     margin-bottom: 20px;
     display: flex;
     justify-content: center;
