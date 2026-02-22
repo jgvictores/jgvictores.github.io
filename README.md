@@ -1,3 +1,32 @@
+<style>
+  .ascii-banner-container {
+    width: 100%;
+    overflow: hidden;
+    margin-bottom: 20px; /* Gives some space between the cat and your heading */
+    display: flex;
+    justify-content: center;
+    background: transparent !important;
+    padding: 0 !important;
+    border: none !important;
+  }
+
+  .ascii-banner {
+    width: 100%;
+    max-width: 1200px;
+    display: block;
+    margin: 0 !important;
+    padding: 0 !important;
+    background: transparent !important;
+    box-shadow: none !important;
+    border: none !important;
+    mix-blend-mode: multiply; 
+  }
+</style>
+
+<div class="ascii-banner-container">
+  <img src="ascii_transparent_fixed.gif" alt="Running Cat ASCII Art" class="ascii-banner">
+</div>
+
 ### Universidad Carlos III de Madrid (UC3M)
 
 - Associate Professor at [UC3M](https://www.uc3m.es)
