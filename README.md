@@ -2,8 +2,8 @@
   .ascii-banner-container {
     width: 100%;
     overflow: hidden;
-    margin-top: -30px;   /* PULLS THE CAT UP to eat the theme's empty space */
-    margin-bottom: 20px; /* Keeps the space between the cat and your UC3M heading */
+    margin-top: -30px;
+    margin-bottom: 20px;
     display: flex;
     justify-content: center;
     background: transparent !important;
