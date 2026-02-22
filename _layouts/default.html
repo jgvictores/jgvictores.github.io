@@ -102,7 +102,31 @@
 </div>
 
     <!-- 3-COL -->
-<hr/>
+<style>
+  .ascii-banner-container {
+    width: 100%;
+    overflow: hidden; /* This cleanly crops the wrap-around effect on smaller screens */
+    margin: 30px 0;   /* Gives it nice breathing room, similar to the old hr */
+    display: flex;
+    justify-content: center; /* Keeps it perfectly centered on ultrawide monitors */
+  }
+
+  .ascii-banner {
+    width: 100%;
+    max-width: 1200px; /* Matches the exact width of our Python canvas */
+    height: auto;      /* Ensures it scales proportionately on mobile devices */
+    display: block;
+    mix-blend-mode: multiply; /* Optional trick: Guarantees the background perfectly matches the page */
+  }
+</style>
+
+<div class="ascii-banner-container">
+  <img src="{{ site.baseurl }}/ascii_tight_crop_banner.gif" alt="Running Cat ASCII Art" class="ascii-banner">
+</div>
+
+
+
+        
 <div class="row">
   <div class="column">
     <h4>Family's Publications</h4>
