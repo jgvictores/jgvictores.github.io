@@ -105,37 +105,32 @@
 <style>
   .ascii-banner-container {
     width: 100%;
-    overflow: hidden; 
-    margin: 40px 0;   
+    overflow: hidden;
+    margin: 10px 0; /* Reduced from 40px to 10px for tighter layout */
     display: flex;
-    justify-content: center; 
-    /* Strip away any inherited theme backgrounds or borders */
+    justify-content: center;
     background: transparent !important;
-    border: none !important;
-    box-shadow: none !important;
     padding: 0 !important;
+    border: none !important;
   }
 
   .ascii-banner {
     width: 100%;
-    max-width: 1200px; 
-    height: auto;      
+    max-width: 1200px;
     display: block;
-    /* Strip away image borders, padding, and shadows from Slate theme */
-    background: transparent !important;
-    border: none !important;
-    box-shadow: none !important;
-    padding: 0 !important;
     margin: 0 !important;
-    /* This forces the GIF's #f2f2f2 to perfectly multiply/melt into the page's #f2f2f2 */
+    padding: 0 !important;
+    background: transparent !important;
+    box-shadow: none !important;
+    border: none !important;
+    /* This now turns the WHITE background transparent, leaving only the text */
     mix-blend-mode: multiply; 
   }
 </style>
 
 <div class="ascii-banner-container">
-  <img src="{{ site.baseurl }}/ascii_tight_crop_banner.gif" alt="Running Cat ASCII Art" class="ascii-banner">
+  <img src="{{ site.baseurl }}/ascii_transparent_fixed.gif" alt="Running Cat ASCII Art" class="ascii-banner">
 </div>
-
         
 <div class="row">
   <div class="column">
