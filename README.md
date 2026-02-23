@@ -3,7 +3,7 @@
     width: 100%;
     overflow: hidden;
     margin-top: -20px;
-    margin-bottom: 20px;
+    margin-bottom: 18px;
     display: flex;
     justify-content: center;
     user-select: none;
@@ -11,22 +11,20 @@
 
   #ascii-cat {
     font-family: "Ubuntu Mono", Consolas, "Courier New", Courier, monospace;
-    font-size: 16px;
+    font-size: 14px;
     line-height: 1.2;
     white-space: pre;
-    color: #333333;
+    color: #222222;
     margin: 0;
     padding: 0;
     background: transparent;
     border: none;
-    overflow: hidden; /* OVERRIDES THE THEME'S SCROLLBAR */
+    overflow: hidden;
   }
 
   /* Dark Mode Support */
   @media (prefers-color-scheme: dark) {
-    #ascii-cat {
-      color: #f2f2f2; 
-    }
+    #ascii-cat { color: #f2f2f2; }
   }
 </style>
 
@@ -78,11 +76,10 @@
     let currentFrame = 0;
     const catElement = document.getElementById('ascii-cat');
     
-    // SLOWED DOWN: Interval increased from 100 to 200 ms
     setInterval(() => {
       catElement.textContent = orderedFrames[currentFrame];
       currentFrame = (currentFrame + 1) % numFrames;
-    }, 200); 
+    }, 125);
   })();
 </script>
 
