@@ -6,7 +6,6 @@
     margin-bottom: 18px;
     display: flex;
     justify-content: center;
-    user-select: none;
   }
 
   #ascii-cat {
