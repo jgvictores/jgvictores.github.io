@@ -1,3 +1,13 @@
+@inproceedings{lukawski2026external,
+   abstract = {Este trabajo presenta la integración de un sistema de adquisición original y de código abierto, desarrollado para un sensor fuerza-par JR3 de seis ejes gestionado por un microcontrolador Mbed, y el brazo manipulador colaborativo CRB 15000-5 "GoFa" de ABB. La característica Externally Guided Motion (EGM) del fabricante es aprovechada para producir comandos de alta frecuencia mediante un dispositivo externo y la realimentación del sensor. Una arquitectura distribuida de componentes software es orquestrada por el middleware ROS 2 usando paquetes y librerías de Python. El sistema ha sido validado en simulación con RobotStudio y sobre el robot real mediante tres aplicaciones de alto nivel que emplean la realimentación de fuerza: control de admitancia (guiado kinestésico), control de impedancia y ejecución de trayectorias predefinidas con aplicación de presión constante. Se muestra un caso de uso de la última aplicación para realizar dibujos con el robot. Futuras extensiones de este sistema pueden ser aplicadas en escenarios que involucren teleoperación y realimentación háptica.},
+   author = {Bartek Łukawski and Alba Olano Díaz and Alfredo González Villasante and Edwin D. Oña and Juan G. Victores and Alberto Jardón},
+   doi = {10.64117/simposioscea.v2i2.215},
+   issn = {3081-5002},
+   booktitle = {Simposios del Comité Español de Automática (CEA)},
+   month = {5},
+   title = {External force-torque sensor feedback on the ABB GoFa collaborative robot},
+   year = {2026}
+}
 @inproceedings{naranjo-campos2026singledemonstration,
    abstract = {Learning manipulation from extremely limited data remains challenging for robotic systems. We present a framework that combines Behavioural Cloning (BC) from a single kinesthetic demonstration with residual Reinforcement Learning (RL) to solve a long-horizon dual-arm bottle unscrewing task. A base policy is first trained via supervised imitation, capturing nominal behaviour. A residual policy is then learned in simulation using PPO to produce bounded corrective actions, improving robustness and generalization to variations in bottle geometry. Results show that while single-demonstration BC performs reliably under nominal conditions, it degrades under distribution shifts. The residual formulation preserves nominal performance and significantly improves robustness. The final controller is deployed in a one-shot sim-to-real transfer, achieving successful execution on different bottle types.},
    author = {Francisco José Naranjo Campos and Juan Carlos González Victores and Carlos Balaguer and Alberto Jardón},
