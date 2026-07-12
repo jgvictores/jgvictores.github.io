@@ -1,3 +1,14 @@
+@inproceedings{santos-gracia2026bilateral,
+   abstract = {Trabajos previos establecieron una arquitectura de teleoperación para brazos robóticos sobre YARP y ROS 2. El presente trabajo extiende dicha arquitectura incorporando retroalimentación háptica para cerrar un bucle de control bilateral. Un dispositivo Phantom Omni transmite comandos de posición al robot y recibe fuerzas de contacto del entorno remoto. La integración comprende tres capas: YARP para la abstracción hardware del dispositivo háptico, ROS 2 como backbone de comunicación, y una capa de control específica por plataforma, que emplea la pila de control cartesiano para el robot humanoide TEO y el protocolo EGM de ABB para el brazo colaborativo GoFa. Para evitar calibración espacial explícita entre marcos de referencia, se adopta una estrategia de control diferencial basada en desplazamientos incrementales. La retroalimentación de fuerzas se implementa mediante un nodo dedicado que evalúa la penetración del extremo del robot en regiones de restricción virtual y genera fuerzas de restitución proporcionales, cerrando el bucle bilateral de forma independiente a la plataforma objetivo.},
+   author = {Álvaro Santos-García and Bartek Łukawski and Dorin Copaci and Juan G. Victores and Carlos Balaguer},
+   doi = {10.64117/simposioscea.v2i2.216},
+   issn = {3081-5002},
+   booktitle = {Simposios del Comité Español de Automática (CEA)},
+   month = {5},
+   title = {Bilateral haptic teleoperation bridging YARP and ROS 2 ecosystems},
+   url = {https://doi.org/10.64117/simposioscea.v2i2.216},
+   year = {2026}
+}
 @inproceedings{lukawski2026external,
    abstract = {Este trabajo presenta la integración de un sistema de adquisición original y de código abierto, desarrollado para un sensor fuerza-par JR3 de seis ejes gestionado por un microcontrolador Mbed, y el brazo manipulador colaborativo CRB 15000-5 "GoFa" de ABB. La característica Externally Guided Motion (EGM) del fabricante es aprovechada para producir comandos de alta frecuencia mediante un dispositivo externo y la realimentación del sensor. Una arquitectura distribuida de componentes software es orquestrada por el middleware ROS 2 usando paquetes y librerías de Python. El sistema ha sido validado en simulación con RobotStudio y sobre el robot real mediante tres aplicaciones de alto nivel que emplean la realimentación de fuerza: control de admitancia (guiado kinestésico), control de impedancia y ejecución de trayectorias predefinidas con aplicación de presión constante. Se muestra un caso de uso de la última aplicación para realizar dibujos con el robot. Futuras extensiones de este sistema pueden ser aplicadas en escenarios que involucren teleoperación y realimentación háptica.},
    author = {Bartek Łukawski and Alba Olano Díaz and Alfredo González Villasante and Edwin D. Oña and Juan G. Victores and Alberto Jardón},
@@ -6,6 +17,7 @@
    booktitle = {Simposios del Comité Español de Automática (CEA)},
    month = {5},
    title = {External force-torque sensor feedback on the ABB GoFa collaborative robot},
+   url = {https://doi.org/10.64117/simposioscea.v2i2.215},
    year = {2026}
 }
 @inproceedings{naranjo-campos2026singledemonstration,
