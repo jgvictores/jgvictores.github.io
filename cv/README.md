@@ -23,6 +23,6 @@ sudo apt install texlive-latex-base texlive-latex-recommended \
 
 ## Helpful Links
 
-- <http://tex.stackexchange.com/questions/60565/separating-two-types-of-articles-from-bibtex-using-printbibliography>
-- <http://tex.stackexchange.com/questions/297365/how-to-use-bibtex-for-putting-a-nice-publication-list-in-resume-with-document-cl>
+- <https://tex.stackexchange.com/questions/60565/separating-two-types-of-articles-from-bibtex-using-printbibliography>
+- <https://tex.stackexchange.com/questions/297365/how-to-use-bibtex-for-putting-a-nice-publication-list-in-resume-with-document-cl>
 - <https://github.com/bruceravel/My-CV>
