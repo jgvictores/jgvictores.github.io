@@ -6,7 +6,9 @@ name: jgvictores
 
 url: "https://jgvictores.com"
 baseurl: ""
+plugins:
+  - jekyll-sitemap
 
 # SEO
-twitter:
+twitter: jgvictores
 username: jgvictores
