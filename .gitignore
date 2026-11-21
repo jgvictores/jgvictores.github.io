@@ -3,6 +3,9 @@ Gemfile.lock
 _site/
 
 # pdflatex and make4ht auxiliary
+cv/JuanGVictoresCV.css
+cv/JuanGVictoresCV.html
+cv/JuanGVictoresCV.pdf
 *.aux
 *.bbl
 *.blg

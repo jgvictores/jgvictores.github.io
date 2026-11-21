@@ -1,5 +1,5 @@
 # README-docker
 
 ```bash
-docker-compose run --rm cv-builder
+docker compose run --rm cv-builder
 ```
