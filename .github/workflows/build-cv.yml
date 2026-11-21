@@ -1,0 +1,50 @@
+name: Build and Publish CV
+
+on:
+  push:
+    branches:
+      - master
+    paths:
+      - 'cv/**'
+  workflow_dispatch: # Allows you to trigger it manually from the Actions tab
+
+permissions:
+  contents: write # Required to commit the generated files back
+
+jobs:
+  build:
+    runs-on: ubuntu-22.04
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Install TeX Live Dependencies
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y texlive-latex-base texlive-latex-recommended \
+            texlive-latex-extra texlive-extra-utils texlive-luatex make4ht
+
+      - name: Build PDF and HTML
+        working-directory: ./cv
+        run: |
+          # Apply your BibTeX cleanups directly to the tracked victores.bib
+          sed -i '/   note = {/d' victores.bib
+          sed -i "s/@inbook/@incollection/g" victores.bib
+          sed -i "s/@article{victores2014thesis/@phdthesis{victores2014thesis/g" victores.bib
+          
+          # Compile the LaTeX document
+          pdflatex JuanGVictoresCV.tex
+          pdflatex JuanGVictoresCV.tex
+          bibtex JuanGVictoresCV.aux
+          pdflatex JuanGVictoresCV.tex
+          pdflatex JuanGVictoresCV.tex
+          
+          # Generate the HTML
+          make4ht -u JuanGVictoresCV.tex
+
+      - name: Commit generated files back to repository
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "chore: auto-generate CV PDF and HTML"
+          file_pattern: 'cv/JuanGVictoresCV.pdf cv/JuanGVictoresCV.html cv/JuanGVictoresCV.css cv/victores.bib'
