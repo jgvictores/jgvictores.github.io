@@ -1,10 +1,11 @@
 # cv/
 
-## Install Dependencies (Ubuntu 22.04 Jammy)
+## run
+
+From top level:
 
 ```bash
-sudo apt install texlive-latex-base texlive-latex-recommended \
-    texlive-latex-extra texlive-extra-utils texlive-luatex
+docker compose run --rm cv-builder
 ```
 
 ## Workflow
