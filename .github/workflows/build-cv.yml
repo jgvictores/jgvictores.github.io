@@ -38,10 +38,9 @@ jobs:
           context: .
           push: true
           tags: ghcr.io/jgvictores/cv-builder:latest
-          # Pulls cache metadata from GHCR
-          cache-from: type=registry,ref=ghcr.io/jgvictores/cv-builder:latest
-          # Pushes updated cache metadata to GHCR
-          cache-to: type=registry,ref=ghcr.io/jgvictores/cv-builder:latest,mode=max
+          # Use native GitHub Actions cache for lightning-fast builds
+          cache-from: type=gha
+          cache-to: type=gha,mode=max
 
       - name: Compile CV
         run: docker compose run --rm cv-builder
