@@ -9,8 +9,7 @@ sed -i "s/@inbook/@incollection/g" victores.bib
 sed -i "s/@article{victores2014thesis/@phdthesis{victores2014thesis/g" victores.bib
 #sed -i "s/booktitle/journal/g" victores.bib
 #sed -i "s/@patent/@misc/g" victores.bib
-pdflatex JuanGVictoresCV.tex
-pdflatex JuanGVictoresCV.tex
+pdflatex JuanGVictoresCV.tex # removed second pdflatex JuanGVictoresCV.tex
 bibtex JuanGVictoresCV.aux
 pdflatex JuanGVictoresCV.tex
 pdflatex JuanGVictoresCV.tex
