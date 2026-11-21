@@ -1,8 +1,8 @@
 version: '3.8'
 services:
   cv-builder:
+    image: ghcr.io/jgvictores/cv-builder:latest
     build: .
     volumes:
       - .:/workspace
-    # Automatically runs your script when you start the container
     command: sh -c "cd cv && ./run.sh"

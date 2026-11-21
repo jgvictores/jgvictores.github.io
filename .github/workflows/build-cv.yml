@@ -9,6 +9,7 @@ permissions:
   contents: read
   pages: write
   id-token: write
+  packages: write # Required to authenticate and push to GHCR
 
 concurrency:
   group: "pages"
@@ -21,22 +22,26 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
 
-      - name: Set up Docker Buildx
-        uses: docker/setup-buildx-action@v3
-
-      - name: Cache Docker layers
-        uses: actions/cache@v3
+      - name: Log in to GitHub Container Registry
+        uses: docker/login-action@v3
         with:
-          path: /tmp/.buildx-cache
-          key: ${{ runner.os }}-buildx-${{ github.sha }}
-          restore-keys: |
-            ${{ runner.os }}-buildx-
+          registry: ghcr.io
+          username: ${{ github.actor }}
+          password: ${{ secrets.GITHUB_TOKEN }}
 
-      - name: Build and Run CV Compiler
+      - name: Prepare Docker Image
         run: |
-          # Build the image using the cache, then run the run.sh script via docker-compose
-          docker compose build
-          docker compose run --rm cv-builder
+          # Try to pull the existing image to save time
+          docker compose pull cv-builder || true
+          
+          # Build the image (uses the pulled image as cache, or builds from scratch if missing)
+          docker compose build cv-builder
+          
+          # Push the image back to GHCR so future runs can use it
+          docker compose push cv-builder
+
+      - name: Compile CV
+        run: docker compose run --rm cv-builder
 
       - name: Setup GitHub Pages
         uses: actions/configure-pages@v5
