@@ -16,4 +16,4 @@ pdflatex JuanGVictoresCV.tex
 # Generate the HTML
 make4ht -u JuanGVictoresCV.tex
 # Override the modern make4ht thin-column default to mimic the PDF width
-echo "body { max-width: 900px !important; margin: 2em auto !important; padding: 0 2em !important; }" >> JuanGVictoresCV.css
+sed -i 's/max-width:80ch;/max-width:950px;/g' JuanGVictoresCV.css
